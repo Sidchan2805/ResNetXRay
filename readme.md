@@ -44,10 +44,17 @@ Pneumonia detection through chest X-rays is a common diagnostic task in medicine
 4. **Balanced Sample Counts**:
    - Stratified sampling to get ~700 images per class for training
    - ~150 per class for validation and testing
+   - The code for creating a balanced class is in the data_curation.ipynb notebook
 5. **Directory Structure After Preprocessing**:
 
-   -data/ ├── train/ │ ├── class_0_pneumonia/ │ ├── class_1_other/ │ └── class_2_normal/ ├── val/ ├── test/
+   -data/
+   ├── train/
+   │ ├── class_0_pneumonia/
+   │ ├── class_1_other/
+   │ └── class_2_normal/
+   ├── val/
+   ├── test/
 
-6. **Image Format**:
+7. **Image Format**:
    - All images resized to 224×224
    - Normalized using ImageNet mean & std for compatibility with pretrained ResNet18
