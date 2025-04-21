@@ -48,6 +48,7 @@ Pneumonia detection through chest X-rays is a common diagnostic task in medicine
 5. **Directory Structure After Preprocessing**:
 
    -data/
+
    ├── train/
    
    │ ├── class_0_pneumonia/
