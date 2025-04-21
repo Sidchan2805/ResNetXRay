@@ -49,10 +49,15 @@ Pneumonia detection through chest X-rays is a common diagnostic task in medicine
 
    -data/
    ├── train/
+   
    │ ├── class_0_pneumonia/
+   
    │ ├── class_1_other/
+   
    │ └── class_2_normal/
+   
    ├── val/
+   
    ├── test/
 
 7. **Image Format**:
